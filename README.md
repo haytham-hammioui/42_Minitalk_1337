@@ -35,23 +35,32 @@ The `minitalk` project is part of the 42 network curriculum. It is a simple clie
 
 ### Usage
 
-To use `ft_printf` in your C projects:
-
-1. Include the `ft_printf` header file in your C source files.
-   ```c
-   #include "ft_printf.h"
-   ```
-
-2. Compile your project along with `libftprintf.a`. For example:
-   ```sh
-   gcc -o your_program your_source_files libftprintf.a
-   ```
-
+1. Start the `Server`
+    Run the `server` first to retrieve its `Process ID (PID)`:
+    ```sh
+     ./server
+    ```
+    Output:
+    ```sh
+     Server (PID): 12345
+    ```
+    
+2. Send a Message from the Client
+    Use the PID from the server and provide a message:
+    ```sh
+     ./client server_pid "message"
+    ```
+    Example:
+    ```sh
+     ./client 12345 "Hello, Minitalk!"
+    ```
+    The server should receive and display the message.
+   
 ## Contributing
 
-Contributions to `ft_printf` are welcome! Whether you've found a bug, have a feature request, or want to contribute code:
+Contributions to `minitalk` are welcome! Whether you've found a bug, have a feature request, or want to contribute code:
 
 1. Fork the repository.
 2. Create a new branch for your changes.
 3. Add your contributions.
-4. Push your branch and open a pull request against the `ft_printf` repository.
+4. Push your branch and open a pull request against the `minitalk` repository.
