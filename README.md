@@ -23,7 +23,7 @@ The `minitalk` project is part of the 42 network curriculum. It is a simple clie
 
 1. **Clone the Repository**
    ```sh
-   https://github.com/haytham-hammioui/42_Minitalk_1337.git minitalk
+   git clone https://github.com/haytham-hammioui/42_Minitalk_1337.git minitalk
    ```
 
 2. **Compile the Program**
