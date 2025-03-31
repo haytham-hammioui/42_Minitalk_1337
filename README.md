@@ -27,7 +27,7 @@ The `minitalk` project is part of the 42 network curriculum. It is a simple clie
    ```
 
 2. **Compile the Program**
-   Navigate to the `ft_printf` directory and run `make`. This will generate the `server` and `client` executables.
+   Navigate to the `minitalk` directory and run `make`. This will generate the `server` and `client` executables.
    ```sh
    cd minitalk
    make
